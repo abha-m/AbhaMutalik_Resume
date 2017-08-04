@@ -1,0 +1,178 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wenneker Resume/CV
+% LaTeX Template
+% Version 1.1 (19/6/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com) with extensive modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,12pt]{memoir} % Font and paper size
+
+\input{structure.tex} % Include the file specifying document layout and packages
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION 
+%----------------------------------------------------------------------------------------
+
+\userinformation{ % Set the content that goes into the sidebar of each page
+\begin{flushright}
+% Comment out this figure block if you don't want a photo
+\includegraphics[width=0.6\columnwidth]{photo.jpg}\\[\baselineskip] % Your photo
+\small % Smaller font size
+Abha Mutalik \\ % Your name
+\url{abhamutalik@gmail.com} \\ % Your email address
++91-9987763782 \\ % Your phone number
+\Sep % Some whitespace
+\textbf{Address} \\
+9, Indrayani \\ % Address 1
+Gokhale Road, \\ % Address 2
+Thane(West)-400602 \\ % Address 3
+Maharashtra \\ % Address 4
+India \\ % Address 5
+\vfill % Whitespace under this block to push it up under the photo
+\end{flushright}
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+%----------------------------------------------------------------------------------------
+%	HEADING
+%----------------------------------------------------------------------------------------
+
+\cvheading{Abha Mutalik} % Large heading - your name
+
+\cvsubheading{Aspiring Computer Engineer} % Subheading - your occupation/specialization
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\objective{Objective}{To make worthwhile contributions in my area of study and make the world a better place.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+ \begin{tabular}{|P{2cm}|P{3cm}|P{3cm}|P{2cm}|P{2cm}|}
+
+   \hline
+  
+    \textbf {Degree} & \textbf { College/School} & \textbf {University} & \textbf {Passing Year} & \textbf { Pass Percentage} \\ \hline
+	
+    Sem-4 (CSE) & Sardar Patel Institute Of Technology & Mumbai University & May, 2017 & 7.89/10  \\ \hline
+    Sem-3 (CSE) & Sardar Patel Institute Of Technology & Mumbai University & Dec, 2016 & 8.54/10  \\ \hline
+    Sem-2 (CSE) & Sardar Patel Institute Of Technology & Mumbai University & May, 2016 & 7.56/10  \\ \hline
+    Sem-1 (CSE) & Sardar Patel Institute Of Technology & Mumbai University & Dec, 2015 & 8.26/10  \\ \hline
+    H.S.C (12th) & B N Bandodkar College of Science, Thane  & HSC & April, 2015  & 89.0/100 (PCM) \\ \hline
+    S.S.C (10th) & Sou A K Joshi School, Thane  & SSC & March, 2013 & 94.55/100  \\  \hline
+
+  \end{tabular}
+  \newline\newline
+  \textbf{CSE => Computer Science Engineering}
+  
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\CVSection{Experience}
+
+%------------------------------------------------
+
+\CVItem{Co-Curricular Activities and Projects}{
+\begin{itemize}
+	\item Summer Internship at Pykih as a front-end ReactJS developer (June 2017)
+	\item Part of the Website Development Team of the Computer Engineering Department, Sardar Patel Institute of Technology
+	\item Freelancer for developing the website of THE URBAN TRAILS, a tour and trek management company based in Thane
+	\item Team project: Developed a paint editor application in Java Swing
+	\item Team project: Developed an interactive quiz application using C and MySQL
+\end{itemize}
+}
+
+%------------------------------------------------
+
+\CVItem{Extra-Curricular Activities}{
+\begin{itemize}
+	\item Volunteering at Abhyudaya Foundation (July 2017 - present)
+	\item Organized the event Line Following Bot And Techeshi's Castle, as a part of the technical festival of S.P.I.T., Matrix(2017)
+\end{itemize}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+
+%----------------------------------------------------------------------------------------
+%	SKILLS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Languages and Technologies}
+
+%------------------------------------------------
+
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet C & \bluebullet Java & \bluebullet Python &  \bluebullet MySQL & \bluebullet PHP & \bluebullet Web Development\\
+\end{tabular}}
+
+
+%------------------------------------------------
+
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+
+%----------------------------------------------------------------------------------------
+%	NEW PAGE DELIMITER
+%	Place this block wherever you would like the content of your CV to go onto the next page
+%----------------------------------------------------------------------------------------
+
+\clearpage % Start a new page
+
+
+\userinformation % Print your information in the left column
+
+\framebreak % End of the first column
+
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS
+%----------------------------------------------------------------------------------------
+
+\CVSection{Interests}
+
+%------------------------------------------------
+
+{\begin{tabular}{p{0.2\textwidth} p{0.2\textwidth} p{0.2\textwidth}}
+\bluebullet Table tennis enthusiast (Played at the State level) &  \bluebullet Reading & \bluebullet Watching international TV shows \\
+\end{tabular}}
+
+%------------------------------------------------
+
+\Sep % Extra whitespace after the end of a major section
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
